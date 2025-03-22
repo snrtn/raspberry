@@ -1,0 +1,44 @@
+# Ignore C / C++ compiled files
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+*.dll
+*.dSYM
+*.d
+*.gcda
+*.gcno
+*.gcov
+*.bin
+
+c/*
+!c/*.c
+
+cpp/*
+!cpp/*.cpp
+
+
+
+# Ignore C / C++ build directories
+/build/
+/bin/
+/debug/
+/release/
+
+# Ignore VS Code settings folder
+.vscode/
+
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files for macOS and Windows
+.DS_Store
+Thumbs.db
